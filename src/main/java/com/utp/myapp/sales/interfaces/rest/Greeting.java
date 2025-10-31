@@ -12,7 +12,7 @@ public class Greeting {
 
     @GetMapping
     public String greet(@RequestParam(defaultValue = "world") String name) {
-        return "Hello " + name + "!";
+        return "Hello " + name + "El mundo es tuyo!";
     }
 
 }
